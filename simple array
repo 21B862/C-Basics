@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[5],i;
+    for(i=0;i<5;i++)
+    {
+        std::cin >> arr[i];
+    }
+    for(i=0;i<5;i++)
+    {
+        std::cout <<"\n"<<arr[i];
+        
+        
+    }
+    return 0;
+}
